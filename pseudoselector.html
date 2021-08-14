@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and some more styling</title>
+    <style>
+        .container{
+            border: 3px solid rgb(76, 76, 212);
+            background-color:rgb(207, 238, 228);
+            padding:34px;
+            margin:34px auto;
+            width:666px;
+        }
+        a{
+            text-decoration:none;   
+            color:black;
+            font-family: Georgia;
+        }
+        a:hover{
+            color:rgb(82, 74, 74);
+            background-color:rgb(238, 146, 112);
+            border: 2px solid black;
+        }
+        a:visited{
+            background-color:rgb(230, 231, 164);
+        }
+        a:active{
+            background-color:rgb(109, 109, 238);
+        }
+        .btn{
+            background-color:rgba(236, 129, 6, 0.904);
+            padding: 6px;
+            border:none;
+            cursor:pointer;
+            font-size:13px;
+            border-radius: 5px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .btn:hover{
+            color:rgb(49, 48, 48);
+            background-color:rgb(243, 189, 89);
+            border:2px solid black;
+        }
+ 
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam alias sapiente quisquam enim soluta vel. Quae cum veritatis odit tempore voluptas eos dolore totam. Suscipit rerum quasi ratione consectetur eligendi repellat nemo officiis laudantium?</p>
+        <a href="https://xyz.com" class="btn">Read More</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>
